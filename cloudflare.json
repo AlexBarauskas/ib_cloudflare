@@ -1,8 +1,8 @@
 {
     "name": "InviteBox",
     "description": "Acquire new customers with a social referral program. InviteBox is a flexible referral marketing solution that brings you new customers at no cost.",
-    "version": "0.1",
-    "category": "Content Monetization",
+    "version": "0.2",
+    "category": "social sharing",
     "main": "public/javascripts/app_module.js",
     "config":{
         "details":{
@@ -14,8 +14,13 @@
         }, 
         "assets":{
             "logos": {
-	    	     "200px": "./public/images/logo-200.png"
-            }
+	    	     "200px": "./public/images/logo-200.png",
+		     "132px": "./public/images/logo-132.png"
+            },
+	"detail_page": [
+	             "./public/images/example.png"
+            ],
+	    
         },
         "interface": [
             {

@@ -7,7 +7,7 @@ CloudFlare.define("invitebox",
             var div = $("<div>");
             $("<img>",{
                 src: cdnPath + "images/logo-200.png",
-                "class": "countersback"
+                "class": "invitebox"
             }).appendTo(div);
             $("<span>", {"style": "position:relative; top:-20px; left:-50px;")
                 .text(count).appendTo(div);
