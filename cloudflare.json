@@ -27,6 +27,16 @@
 	            ]			    
 	}		    	    
     },
+
+    "interface": [
+            {
+                "type": "string",
+                "name": "Favorite Food",
+                "description": "Please tell us your favorite food.",
+                "id": "food",
+                "domain_request": true
+            	}
+    ]	    
     "billing": {
         "type": "zone",
         "plans":[
