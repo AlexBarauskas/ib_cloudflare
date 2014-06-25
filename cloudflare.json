@@ -1,7 +1,7 @@
 {
     "name": "InviteBox",
     "description": "Acquire new customers with a social referral program. InviteBox is a flexible referral marketing solution that brings you new customers at no cost.",
-    "version": "0.4",
+    "version": "0.4.1",
     "category": "social sharing",
     "main": "public/javascripts/app_module.js",
     "account": {
@@ -25,33 +25,6 @@
 	             "./public/images/example.png"
             ]
 	    
-        },
-        "interface": [
-            {
-                "type": "string",
-                "id": "food",
-                "name": "Favorite Food",
-                "description": "Please tell us your favorite food.",
-                "domain_request": true,
-                "private": true
-            },
-            {
-                "type": "select",
-                "id": "lottery",
-                "name": "Do you Lotto?",
-                "description": "Choose whether to buy a ticket",
-                "options": [
-                    {
-                        "label": "Yes, buy a ticket!",
-                        "value": "true"
-                    },
-                    {
-                        "label": "No, I am scared.",
-                        "value": ""
-                    }
-                ]
-            }
-        ]
     },
     "billing": {
         "type": "zone",
