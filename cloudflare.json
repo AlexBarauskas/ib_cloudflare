@@ -20,7 +20,7 @@
             "logos": {
 	    	     "200px": "./public/images/logo-200.png",
 		     "132px": "./public/images/logo-132.png"
-            	     }
+            	     },
 	    
 	    "detail_page": [
  	            "./public/images/example.png"
@@ -36,7 +36,7 @@
                 "id": "food",
                 "domain_request": true
             	}
-    ]	    
+    ],	    
     "billing": {
         "type": "zone",
         "plans":[
