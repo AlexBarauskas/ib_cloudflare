@@ -25,16 +25,17 @@
 	    "detail_page": [
  	            "./public/images/example.png"
 	            ]			    
-	}		    	    
-    },
-
-    "interface": [
-            {
+	},		    	    
+ 
+       "interface": [
+               {
                 "type": "string",
                 "name": "Favorite Food",
                 "description": "Please tell us your favorite food.",
                 "id": "food",
                 "domain_request": true
             	}
-    ]
+          ]
+    }
+
 }
