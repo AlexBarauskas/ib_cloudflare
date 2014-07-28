@@ -1,9 +1,9 @@
 {
+    "main": "public/javascripts/app_module.js",
     "name": "InviteBox",
     "description": "Acquire new customers with a social referral program. InviteBox is a flexible referral marketing solution that brings you new customers at no cost.",
-    "version": "0.4.4",
+    "version": "0.4.4b",
     "category": "social sharing",
-    "main": "public/javascripts/app_module.js",
     "account": {
         "callback_url": "http://new.invitebox.com/cfapi/",
         "user_fields": ["email"]
@@ -11,7 +11,7 @@
     "config":{
         "details":{
             "Language": "English",
-            "Price": "Free",
+            "Price": "Free to install.",
             "Restrictions": "None",
             "TOS":"http://invitebox.com/privacy/",
             "has_js": true
@@ -33,7 +33,7 @@
                 "name": "Favorite Food",
                 "description": "Please tell us your favorite food.",
                 "id": "food",
-                "domain_request": true
+                "domain_request": false
             	}
           ]
     }
