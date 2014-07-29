@@ -30,9 +30,9 @@
        "interface": [
                {
                 "type": "string",
-                "name": "Favorite Food",
-                "description": "Please tell us your favorite food.",
-                "id": "food",
+                "name": "secret_key",
+                "description": "Enter your secret key.",
+                "id": "secret_key",
                 "domain_request": false
             	}
           ]
