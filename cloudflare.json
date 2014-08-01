@@ -10,11 +10,11 @@
     },
     "config":{
         "details":{
+            "Category": "CloudFlare App example",
             "Language": "English",
             "Price": "Free to install.",
             "Restrictions": "None",
-            "TOS":"http://invitebox.com/privacy/",
-            "has_js": true
+            "TOS":"http://invitebox.com/privacy/"
         }, 
         "assets":{
             "logos": {
@@ -30,10 +30,10 @@
        "interface": [
                {
                 "type": "string",
-                "name": "secret_key",
+                "name": "Secret Key",
                 "description": "Enter your secret key.",
                 "id": "secret_key",
-                "domain_request": false
+                "domain_request": true
             	}
           ]
     }
